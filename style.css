@@ -17,10 +17,6 @@
         margin-right: auto;
         padding-top: 50px;
     }
-
-    footer {
-        width: 100%;
-    }
 }
 
 .projects {
@@ -31,4 +27,14 @@ footer {
     background-color: #364B71;
     width: 100% !important;
     color: #D1E1FF;
+}
+
+footer a {
+    color: #D1E1FF;
+    padding: 7px;
+}
+
+footer a:hover {
+    color: #7A8DAF;
+    text-decoration: none;
 }
