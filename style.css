@@ -2,11 +2,19 @@
     .container-fluid {
         padding-top: 30px; 
     }
+
+    footer {
+        padding-bottom: 15px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1249px) {
     .container-fluid {
         padding-top: 40px;
+    }
+
+    footer {
+        padding-bottom: 25px;
     }
 }
 
@@ -17,10 +25,23 @@
         margin-right: auto;
         padding-top: 50px;
     }
+
+    footer {
+        padding-bottom: 30px;
+    }
 }
 
 .projects {
     padding-bottom: 5%;
+}
+
+.project-image {
+    border-radius: 2%;
+}
+
+.project-image:hover {
+    box-shadow: 7px 7px 50px #364B71;
+    transition: 0.5s;
 }
 
 footer {
@@ -37,4 +58,12 @@ footer a {
 footer a:hover {
     color: #7A8DAF;
     text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1, h2 {
+    font-family: 'Merriweather', serif;
 }
